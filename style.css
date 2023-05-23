@@ -51,10 +51,6 @@ nav a:not(:hover){
     transition: 0.5s;
 }
 
-nav a:after {
-    background-color: rgb(196, 122, 12);
-}
-
 .cim:hover {
     text-decoration: none;
     transition: 0.5s;
@@ -89,4 +85,10 @@ th {
 td {
     background-color: rgb(231, 180, 180);
     border: 2px brown solid;
+}
+
+.forras {
+    font-size: 20px;
+    text-decoration: underline dotted 2px;
+    color: rgb(33, 10, 77);
 }
