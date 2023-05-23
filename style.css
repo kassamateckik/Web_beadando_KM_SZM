@@ -50,3 +50,38 @@ nav a:hover{
 nav a:not(:hover){
     transition: 0.5s;
 }
+
+.cim:hover {
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(119, 41, 41);
+}   
+
+.cim:not(:hover) {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+    width: 100px;
+}
+
+div {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+table, th, td {
+    border: brown solid;
+    font-size: 19px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(238, 137, 137);
+}
+
+td {
+    background-color: rgb(231, 180, 180);
+}
