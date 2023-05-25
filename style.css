@@ -51,17 +51,24 @@ nav a:not(:hover){
     transition: 0.5s;
 }
 
-.cim:hover {
+header a{
+    padding: 20px;
+    margin-bottom: 90px;
+    background-color: rgb(255, 174, 53);
     text-decoration: none;
-    transition: 0.5s;
-    color: rgb(119, 41, 41);
-}   
-
-.cim:not(:hover) {
-    text-decoration: none;
-    transition: 0.5s;
+    box-sizing: border-box;
     color: black;
-    width: 100px;
+    display: block;
+}
+
+header a:hover{
+    background-color: rgb(196, 122, 12);
+    transition: 0.5s;
+    color: whitesmoke;
+}
+
+header a:not(:hover){
+    transition: 0.5s;
 }
 
 div {
@@ -91,4 +98,9 @@ td {
     font-size: 20px;
     text-decoration: underline dotted 2px;
     color: rgb(33, 10, 77);
+}
+
+.jelengomb{
+    background-color: rgb(196, 122, 12);
+    color: white;
 }
