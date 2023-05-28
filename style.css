@@ -1,6 +1,8 @@
 body{
     background-color: rgba(253, 133, 63, 0.329);
     font-size: 17px;
+    width: 100%;
+
 }
 
 h1{
@@ -53,7 +55,6 @@ nav a:not(:hover){
 
 header a{
     padding: 20px;
-    margin-bottom: 90px;
     background-color: rgb(255, 174, 53);
     text-decoration: none;
     box-sizing: border-box;
@@ -84,6 +85,7 @@ table, th, td {
     font-size: 19px;
     text-align: center;
     white-space: pre-wrap;
+
 }
 
 th {
@@ -95,9 +97,6 @@ td {
     border: 2px brown solid;
 }
 
-img {
-    width: 32%;
-}
 
 .forras {
     font-size: 20px;
@@ -110,8 +109,43 @@ img {
     color: white;
 }
 
-@media only screen and (max-width: 475px) {
-    #eperlink {
-        display: none;
+#szoveg {
+    font-size: 25px;
+}
+
+#hatterkep_dinnye{
+    background-image: url(Képek/Dinnye.png);
+    background-repeat: repeat-x;
+    background-size: 180px;
+    height: 130px;
+    margin: 0px;
+}
+
+#hatterkep_eper{
+    background-image: url(Képek/Eper.png);
+    background-repeat: repeat-x;
+    background-size: 130px;
+    height: 130px;
+    margin: 0px;
+}
+
+#hatterkep_alma{
+    background-image: url(Képek/Alma.png);
+    background-repeat: repeat-x;
+    background-size: 90px;
+    height: 100px;
+    margin: 0px;
+}
+
+a img{
+    width: 350px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 475px) {
+    nav a{
+        display: block;
+        float: none;
+        width: 100%;
     }
 }
